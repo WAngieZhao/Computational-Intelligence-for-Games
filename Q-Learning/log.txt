@@ -1,0 +1,25 @@
+ESTIMATE of time to complete assignment: 4 hours
+
+      Time     Time
+Date  Started  Spent Work completed
+----  -------  ----  --------------
+11/27 7:00pm   0:30  reviewed the class notes
+11/28 8:00pm   0:15  visited office hour to get a general idea of the project
+11/29 7:00pm   2:00  finish the first draft of the assignment, reading Ed
+		     for finding parameter values to start with
+12/01 7:00pm   1:15  tuning the parameters for higher performance
+               ----
+               04:00  TOTAL time spent
+
+I discussed my solution with: Xinru Li
+
+DISCUSSION
+
+For this assignment, the major difficulty that I had was trying to increase the
+performance by tuning different parameters. I finished the code for q-learning
+within a relatively short amount of time. However, multiple parameters are involved
+in the algorithm. Thus, I spend a lot of time trying out different values on each
+parameter. Sometimes a specific value works well on model 0 but decreases the
+performance on model 1. In the end, my algorithm could score 0.51 on model 0 but
+only 0.45 on model 1. Overall, I think the bucket boundaries and learning rate
+decay value has the most significant impact in terms of increasing performance.    
