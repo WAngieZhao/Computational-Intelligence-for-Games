@@ -1,0 +1,25 @@
+ESTIMATE of time to complete assignment: 10 hours
+
+      Time     Time
+Date  Started  Spent Work completed
+----  -------  ----  --------------
+10/24 8:00pm   0:15  visited office hour to clarify the requirements for
+		     the assignment
+10/25 10:00am  3:30  reviewed the class notes
+		     finished the entire project from scratch all at once
+10/27 9:00pm   0:15  finalize the project
+               ----
+               04:00  TOTAL time spent
+
+I discussed my solution with: Xinru Li
+
+DISCUSSION
+
+The major difficulty that I had was trying to optimize the time and space
+efficiency. I was trying to get rid of recomputing the entire payoff matrix
+when running the “--verify”. The optimization I did was only using the
+strategies in the input for player 1, and play the strategy against all possible
+plays for player 2. Calculate the sum of the strategy weight * (1(win) or
+0.5 (tie) or 0(lose)). If the sum we got is greater than 0.5 (tie), which means
+we can consider the strategy an equilibrium.  Other than that, I also spend sometime
+on figuring out the lottery score when u1=u2=0.
