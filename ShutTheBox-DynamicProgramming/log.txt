@@ -1,0 +1,27 @@
+ESTIMATE of time to complete assignment: 12 hours
+
+      Time     Time
+Date  Started  Spent Work completed
+----  -------  ----  --------------
+10/3  14:30pm  0:30  visited office hour to clarify the requirements for
+		     the assignment,
+                     discussed the structure/dimensions for the dp tables
+10/4  17:00pm  9:00  reviewed the class notes
+		     finished the entire project from scratch all at once
+               ----
+               09:30  TOTAL time spent
+
+I discussed my solution with: Xinru Li
+
+DISCUSSION
+
+The major difficulty that I had was figuring out the tabulation for the
+bottom-up dynamic programming. As I started implementing the functions
+for player 2 first, I was trying to implement the dynamic programming
+algorithm with a 2-dimensional matrix. It is because, for player 2, the t
+(player 1’s score) is always set. However, as I started implementing dp1
+(the tabulation for player 1), I realized that the dp2 (the tabulation
+for player 2) still needs to be 3-dimensional since there are many
+possibilities for t when we are using dp2 to build up dp1. Moreover, the
+first draft of my code has many repetitive codes. Thus, I spend some time
+making the overall code more concise.

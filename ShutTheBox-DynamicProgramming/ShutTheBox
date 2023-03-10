@@ -1,0 +1,2 @@
+#!/bin/bash
+pypy3 shut_the_box.py "$@"
