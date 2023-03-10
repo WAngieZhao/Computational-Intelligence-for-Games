@@ -1,0 +1,27 @@
+ESTIMATE of time to complete assignment: 8 hours
+
+      Time     Time
+Date  Started  Spent Work completed
+----  -------  ----  --------------
+11/07 12:00pm  3:30  reviewed the class notes
+		     finished the first draft of the codes
+11/07 8:00pm   0:15  visited office hour to increase the performance
+11/10 9:00pm   0:15  finalize the project
+11/12 1:00am   1:00  decided to use grace period to improve the performance
+                     for kalah
+               ----
+               04:00  TOTAL time spent
+
+I discussed my solution with: Xinru Li
+
+DISCUSSION
+
+The major difficulty that I had was trying to increase the NET score/performance. 
+At first, there was a minor mistake in the UCB formula I implemented, and my NET 
+score for pegging was having an average of -1.5 with --time=0.01 --depth=14. After 
+fixing that mistake, the average NET score under the same parameter has increased 
+to -0.3, which is close to the number given by the "Testing and Examples". However, 
+the average NET for the kalah game stays around -0.6 under --time=0.25 --depth=4 
+--random=0.1, which is pretty far away from the given example. Thus, I decided to 
+add a tunable bias parameter C to my UCB formula. However, due to the long runtime 
+to play kalah games, I did not get many chances to test out different C values. 
